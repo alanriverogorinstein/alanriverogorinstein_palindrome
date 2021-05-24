@@ -7,16 +7,8 @@ alanriverogorinstein_palindrome monkey patches a palindrome? method to the Strin
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'alanriverogorinstein_palindrome'
+  gem install alanriverogorinstein_palindrome
 ```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install alanriverogorinstein_palindrome
 
 ## Usage
 
