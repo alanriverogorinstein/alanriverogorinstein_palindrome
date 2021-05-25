@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    alanriverogorinstein_palindrome (0.1.0)
+    alanriverogorinstein_palindrome (0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -27,4 +27,4 @@ DEPENDENCIES
   rake (~> 13.0)
 
 BUNDLED WITH
-   2.2.16
+   2.2.17
