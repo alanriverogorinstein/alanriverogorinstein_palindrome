@@ -7,12 +7,13 @@ module AlanriverogorinsteinPalindrome
 
   # Returns true for a palindrome, false otherwise.
   def palindrome?
-    if self.empty?
-      return false
+    if processed_content.empty?
+      false
     else
       processed_content == processed_content.reverse
     end
   end
+end
 
   private
 
@@ -20,7 +21,6 @@ module AlanriverogorinsteinPalindrome
     def processed_content
       self.to_s.scan(/[a-z\d]/i).join.downcase
     end
-end
 
 
 class String
