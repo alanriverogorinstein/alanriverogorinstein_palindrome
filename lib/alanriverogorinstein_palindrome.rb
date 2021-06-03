@@ -7,7 +7,11 @@ module AlanriverogorinsteinPalindrome
 
   # Returns true for a palindrome, false otherwise.
   def palindrome?
-    processed_content == processed_content.reverse
+    if self.empty?
+      return false
+    else
+      processed_content == processed_content.reverse
+    end
   end
 
   private
